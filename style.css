@@ -1,0 +1,48 @@
+body { background-color: #F0E68C;}
+header{
+    background-color: #F8F8FF;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 75px 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000; 
+    
+}
+
+li {
+    float: center;
+    padding: 2em; 
+    line-height: 1px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center; 
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 14pt; }
+
+nav{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    font-weight: bold;
+}
+camerabannerlogo {
+    background-image: url(camerabannerlogo.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+

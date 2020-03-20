@@ -1,8 +1,10 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; } 
 body { background-color: #F0E68C;}
 header{
     background-color: #F8F8FF;
     background-repeat: no-repeat;
-    text-align: center;
+    
     padding: 2px 0px;
     overflow: auto;
     
@@ -45,6 +47,16 @@ main {
     background-color: #FEF6C2;
     display: block;
 }
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000000;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #555555;
+}
+
 camerabannerlogo {
     background-image: url(camerabannerlogo.jpg);
     background-size: 100%;
@@ -53,6 +65,13 @@ camerabannerlogo {
 .floatleft {
     float: left;
 }
+
+
 .header {
     text-align: center;
+
 }
+h1{
+    text-align: center;
+}
+

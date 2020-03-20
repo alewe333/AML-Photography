@@ -6,14 +6,12 @@ header{
     padding: 75px 0px;
 }
 
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000; 
-    
+    background-color: #000000;   
 }
 
 li {
@@ -44,5 +42,7 @@ camerabannerlogo {
     background-size: 100%;
     height: 250px;
 }
-
+.floatleft {
+    float: left;
+}
 

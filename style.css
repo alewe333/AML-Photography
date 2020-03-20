@@ -3,7 +3,9 @@ header{
     background-color: #F8F8FF;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 75px 0px;
+    padding: 2px 0px;
+    overflow: auto;
+    
 }
 
 ul {
@@ -37,6 +39,12 @@ nav{
     width: 200px;
     font-weight: bold;
 }
+main { 
+    padding: 0 0 40em 0;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+    display: block;
+}
 camerabannerlogo {
     background-image: url(camerabannerlogo.jpg);
     background-size: 100%;
@@ -45,4 +53,6 @@ camerabannerlogo {
 .floatleft {
     float: left;
 }
-
+.header {
+    text-align: center;
+}
